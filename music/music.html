@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url();
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./img/backgrund.jpg);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contaner {
+        width: 300px;
+        height: 360px;
+        border: 7px solid rgba(255, 255, 255, 0.151);
+        margin-top: 15px;
+        margin-left: 15px;
+        backdrop-filter: blur(7px);
+        background-color: rgba(128, 128, 128, 0.084);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .contaner img {
+        border-radius: 20px;
+        padding: 8px 10px;
+    }
+
+    .contaner h3 {
+        color: white;
+        font-family: cursive;
+        font-weight: 700;
+        font-size: 1.5rem;
+        /* margin-left: 10px; */
+        text-align: center;
+    }
+
+    .contaner audio {
+        display: none;
+    }
+
+    audio::-webkit-media-controls-panel {
+        background-color: rgba(165, 44, 44, 0.557);
+    }
+
+    .contaner p {
+        color: rgba(128, 128, 128, 0.717);
+        font-weight: 600;
+        font-family: cursive;
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <!-- 1 -->
+        <div class="contaner">
+            <img src="./img/co2.jpg" alt="" width="100%">
+            <h3>Co2</h3>
+            <audio controls id="co2">
+                <source src="../music/audio/Co2(Pagal-World.Com.In) (1).mp3">
+            </audio>
+            <h3>Prateek Kuhad</h3>
+            <p>*To play this song press C</p>
+        </div>
+
+        <!-- 2 -->
+
+        <div class="contaner">
+            <img src="./img/dite mountain.jpg" alt="" width="100%" height="215px">
+            <h3>Diet Mountain Dew</h3>
+            <audio controls id="diet">
+                <source src="../music/audio/Diet-Mountain-Dew(Pagal-World.Com.In).mp3">
+            </audio>
+            <h3>Lana Del Rey</h3>
+            <p>*To play this song press D</p>
+        </div>
+
+        <!-- 3 -->
+
+        <div class="contaner">
+            <img src="./img/until.jpg" alt="" width="100%" height="215px">
+            <h3>Until i Found U</h3>
+            <audio controls id="until">
+                <source src="../music/audio/Stephen Sanchez - Until I Found You (Official Video).mp3">
+            </audio>
+            <h3>stephen sanchez </h3>
+            <p>*To play this song press U</p>
+        </div>
+
+        <!-- 4 -->
+
+        <div class="contaner">
+            <img src="./img/good.jpg" alt="" width="100%" height="215px">
+            <h3>Good Looking</h3>
+            <audio controls id="good">
+                <source src="../music/audio/Suki Waterhouse - Good Looking (Official Video).mp3">
+            </audio>
+            <h3>Suki WaterHouse</h3>
+            <p>*To play this song press G</p>
+        </div>
+
+        <!-- 5 -->
+
+        <div class="contaner">
+            <img src="./img/fein.jpg" alt="" width="100%" height="215px">
+            <h3>FE!N</h3>
+            <audio controls id="fein">
+                <source src="../music/audio/Travis Scott - FE!N ft. Playboi Carti.mp3">
+            </audio>
+            <h3>Travis Scott</h3>
+            <p>*To play this song press F</p>
+        </div>
+
+        <!-- 6 -->
+
+        <div class="contaner">
+            <img src="./img/love.jpg" alt="" width="100%" height="215px">
+            <h3>My Love Mine All Mine</h3>
+            <audio controls id="love">
+                <source src="../music/audio/Mitski - My Love Mine All Mine (Official Lyric Video).mp3">
+            </audio>
+            <h3>Mitski</h3>
+            <p>*To play this song press L</p>
+        </div>
+
+        <!-- 7 -->
+
+        <div class="contaner">
+            <img src="./img/end.jpg" alt="" width="100%" height="215px">
+            <h3>End Of Beginning </h3>
+            <audio controls id="end">
+                <source src="../music/audio/Djo - End Of Beginning (Official Audio).mp3">
+            </audio>
+            <h3>Djo</h3>
+            <p>*To play this song press E</p>
+        </div>
+
+        <!-- 8 -->
+
+        <div class="contaner">
+            <img src="./img/starboy.jpg" alt="" width="100%" height="215px">
+            <h3>Star Boy</h3>
+            <audio controls id="star">
+                <source src="../music/audio/Starboy.mp3">
+            </audio>
+            <h3>The Weekend</h3>
+            <p>*To play this song press S</p>
+        </div>
+
+        <!-- 9 -->
+
+        <div class="contaner">
+            <img src="./img/smiths.jpg" alt="" width="100%" height="215px">
+            <h3>There Is a Light Out</h3>
+            <audio controls id="light">
+                <source src="../music/audio/There Is a Light That Never Goes Out (2011 Remaster).mp3">
+            </audio>
+            <h3>The Smiths</h3>
+            <p>*To play this song press T</p>
+        </div>
+
+        <!-- 10 -->
+
+        <div class="contaner">
+            <img src="./img/sunflower.jpg" alt="" width="100%" height="215px">
+            <h3>Lee-Sunflower</h3>
+            <audio controls id="spider">
+                <source
+                    src="../music/audio/Post Malone, Swae Lee - Sunflower (Spider-Man_ Into the Spider-Verse) (Official Video).mp3">
+            </audio>
+            <h3>Post Malone</h3>
+            <p>*To play this song press p</p>
+        </div>
+    </div>
+
+    <script>
+        let co2 = document.getElementById('co2')
+        let diet = document.getElementById('diet')
+        let until = document.getElementById('until')
+        let good = document.getElementById('good')
+        let fein = document.getElementById('fein')
+        let love = document.getElementById('love')
+        let End = document.getElementById('end')
+        let star = document.getElementById('star')
+        let light = document.getElementById('light')
+        let spider = document.getElementById('spider')
+
+        document.addEventListener("keypress", (event) => {
+
+            if (event.key == 'c' || event.key == 'C') {
+                co2.play()
+            } else if (event.key == " ") {
+                co2.pause()
+                co2.load()
+            } else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                co2.pause()
+                co2.load()
+            }
+
+            if (event.key == 'd' || event.key == 'D') {
+                diet.play()
+            } else if (event.key == " ") {
+                diet.pause()
+                diet.load()
+            }else if (event.key == 'c' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                diet.pause()
+                diet.load()
+            }
+
+            if (event.key == 'u' || event.key == 'U') {
+                until.play()
+            } else if (event.key == " ") {
+                until.pause()
+                until.load()
+            }else if (event.key == 'd' || event.key == 'c' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                until.pause()
+                until.load()
+            }
+
+            if (event.key == 'g' || event.key == 'G') {
+                good.play()
+            } else if (event.key == " ") {
+                good.pause()
+                good.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'c' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                good.pause()
+                good.load()
+            }
+
+            if (event.key == 'f' || event.key == 'F') {
+                fein.play()
+            } else if (event.key == " ") {
+                fein.pause()
+                fein.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'c' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                fein.pause()
+                fein.load()
+            }
+
+            if (event.key == 'l' || event.key == 'L') {
+                love.play()
+            } else if (event.key == " ") {
+                love.pause()
+                love.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'c' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                love.pause()
+                love.load()
+            }
+
+            if (event.key == 'e' || event.key == 'E') {
+                End.play()
+            } else if (event.key == " ") {
+                End.pause()
+                End.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'c' || event.key == 's' || event.key == 't' || event.key == 'p') {
+                End.pause()
+                End.load()
+            }
+
+            if (event.key == 's' || event.key == 'S') {
+                star.play()
+            } else if (event.key == " ") {
+                star.pause()
+                star.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 'c' || event.key == 't' || event.key == 'p') {
+                star.pause()
+                star.load()
+            }
+
+            if (event.key == 't' || event.key == 'T') {
+                light.play()
+            } else if (event.key == " ") {
+                light.pause()
+                light.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 'c' || event.key == 'p') {
+                light.pause()
+                light.load()
+            }
+
+            if (event.key == 'p' || event.key == 'P') {
+                spider.play()
+            } else if (event.key == " ") {
+                spider.pause()
+                spider.load()
+            }else if (event.key == 'd' || event.key == 'u' || event.key == 'g' || event.key == 'f' || event.key == 'l' || event.key == 'e' || event.key == 's' || event.key == 't' || event.key == 'c') {
+                spider.pause()
+                spider.load()
+            }
+
+        })
+
+    </script>
+
+
+</body>
+
+</html>
